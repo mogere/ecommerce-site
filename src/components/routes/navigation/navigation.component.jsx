@@ -4,7 +4,7 @@ import { ReactComponent as CrwnLogo } from "../../../assets/crown.svg";
 import { CartContext } from "../../../contexts/cart.context";
 import { UserContext } from "../../../contexts/user.context";
 import { signOutUser } from "../../../utils/firebase/firebase.utils";
-import CartDropdown from "../../cart-dropdown/cart-dropdpwn.component";
+import CartDropdown from "../../cart-dropdown/cart-dropdown.component";
 import CartIcon from "../../cart-icon/cart-icon.component";
 import './navigation.styles.scss'
 
