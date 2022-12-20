@@ -19,7 +19,7 @@ const ProductCard = ({ product }) => {
                 <span className="name"> {name} </span>
                 <span className="price"> {price} </span>
             </div>
-            <button  onClick={addProductToCart}>Add to Cart</button>
+            <Button  onClick={addProductToCart}>Add to Cart</Button>
         </div>
     )
 }
